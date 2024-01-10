@@ -8,6 +8,7 @@ import GlobalStyles from './GlobalStyles';
 import Home from './pages/Home/Home';
 import CustomTrackList from './pages/CustomTrackList/CustomTrackList';
 
+// 내용 변경용
 function App() {
   return (
     <>
