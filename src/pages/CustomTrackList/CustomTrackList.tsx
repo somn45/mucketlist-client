@@ -46,7 +46,10 @@ function CustomTrackList() {
     <CustomTrackListWrap>
       <CustomTrackHeader>
         <CustomTrackListTitle text="찜한 플레이리스트" />
-        <MoveHomeButton value="X" onClick={() => navigate('/')} />
+        <MoveHomeButton
+          value="X"
+          onClick={() => navigate(`${process.env.PUBLIC_URL}/login`)}
+        />
       </CustomTrackHeader>
       <ResponsedTrackList
         customTracks={customTracks}

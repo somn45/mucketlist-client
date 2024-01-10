@@ -32,7 +32,7 @@ function Header() {
   });
 
   const moveCustomTrackListModal = () => {
-    navigate('/tracks/custom');
+    navigate(`${process.env.PUBLIC_URL}/tracks/custom`);
   };
 
   const initTracks = () => {

@@ -9,7 +9,7 @@ function LoginLink() {
   return (
     <LinkWrap>
       <span>가입되어 있는 계정이 있으신가요?</span>
-      <StyledLink to="/login">로그인</StyledLink>
+      <StyledLink to={`${process.env.PUBLIC_URL}/login`}>로그인</StyledLink>
     </LinkWrap>
   );
 }

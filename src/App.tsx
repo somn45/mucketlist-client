@@ -16,11 +16,11 @@ function App() {
       <Router>
         <SpotifyAuth />
         <Routes>
-          <Route path="/" element={<Home />}>
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />}>
             <Route path="/tracks/custom" element={<CustomTrackList />} />
           </Route>
-          <Route path="/login" element={<Login />} />
-          <Route path="/Join" element={<Join />} />
+          <Route path={`${process.env.PUBLIC_URL}/login`} element={<Login />} />
+          <Route path={`${process.env.PUBLIC_URL}/join`} element={<Join />} />
         </Routes>
       </Router>
     </>
