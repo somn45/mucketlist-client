@@ -13,14 +13,14 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <SpotifyAuth />
         <Routes>
-          <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />}>
+          <Route path="/" element={<Home />}>
             <Route path="/tracks/custom" element={<CustomTrackList />} />
           </Route>
-          <Route path={`${process.env.PUBLIC_URL}/login`} element={<Login />} />
-          <Route path={`${process.env.PUBLIC_URL}/join`} element={<Join />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/join" element={<Join />} />
         </Routes>
       </Router>
     </>

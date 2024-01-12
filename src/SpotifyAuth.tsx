@@ -50,7 +50,7 @@ function SpotifyAuth() {
       }
     );
     dispatch(changeisAccessTokenState(true));
-    navigate(`${process.env.PUBLIC_URL}/`);
+    navigate('/');
   };
 
   return <></>;

@@ -28,7 +28,7 @@ function Join() {
     try {
       await addUser(email, password);
       cookies.set('newUserHandBook', email);
-      navigate(`${process.env.PUBLIC_URL}/login`, {
+      navigate('/login', {
         state: {
           joinSuccessMsg: '회원가입 완료',
         },

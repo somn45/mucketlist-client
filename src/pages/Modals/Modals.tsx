@@ -24,7 +24,7 @@ function Modals() {
   } = useSelector((state: RootState) => state.activeComponent);
 
   useEffect(() => {
-    if (!FIREBASE_UID) navigate(`${process.env.PUBLIC_URL}/login`);
+    if (!FIREBASE_UID) navigate('/login');
   }, []);
   useEffect(() => {
     if (isArrayEmpty(tracks) && isSetAccessToken) dispatch(activeGenres());

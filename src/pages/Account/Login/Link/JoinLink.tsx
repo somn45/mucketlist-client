@@ -9,7 +9,7 @@ function JoinLink() {
   return (
     <LinkWrap>
       <span>계정이 없으신가요?</span>
-      <StyledLink to={`${process.env.PUBLIC_URL}/join`}>회원가입</StyledLink>
+      <StyledLink to="/join">회원가입</StyledLink>
     </LinkWrap>
   );
 }
