@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/mucketlist-client/static/js/main.bb91e725.js",
-    "index.html": "/mucketlist-client/index.html",
-    "main.bb91e725.js.map": "/mucketlist-client/static/js/main.bb91e725.js.map"
+    "main.js": "/static/js/main.f116f8b3.js",
+    "index.html": "/index.html",
+    "main.f116f8b3.js.map": "/static/js/main.f116f8b3.js.map"
   },
   "entrypoints": [
-    "static/js/main.bb91e725.js"
+    "static/js/main.f116f8b3.js"
   ]
 }
