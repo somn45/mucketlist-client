@@ -13,7 +13,13 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router
+        basename={
+          process.env.REACT_APP_LOCAL_DOMAIN
+            ? process.env.REACT_APP_LOCAL_DOMAIN
+            : process.env.PUBLIC_URL
+        }
+      >
         <SpotifyAuth />
         <Routes>
           <Route path="/" element={<Home />}>
