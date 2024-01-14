@@ -2,8 +2,8 @@
 <h1>MucketList</h1>
 </center>
 
-🔗 Github : https://github.com/somn45/mucketlist  
-🔗 Page Link : https://mucketlist.com  
+🔗 Github : https://github.com/somn45/mucketlist-client
+🔗 Page Link : http://mucketlist.xyz/  
 🧩 스포티파이 테스트용 아이디 : mucketlisttest@gmail.com(구글)  
 🧩 스포티파이 테스트용 비밀번호 : myreactapp(구글)
 
