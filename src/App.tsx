@@ -8,8 +8,6 @@ import GlobalStyles from './GlobalStyles';
 import Home from './pages/Home/Home';
 import CustomTrackList from './pages/CustomTrackList/CustomTrackList';
 
-// 내용 변경용
-console.log(process.env.PUBLIC_URL);
 function App() {
   return (
     <>
